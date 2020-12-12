@@ -3,6 +3,13 @@ import { Tooltip, Toast, Popover } from 'bootstrap';
 
 import Alert from 'bootstrap/js/dist/alert';
 
+import { Drawer } from '@material-ui/core/Drawer';
+// or
+import { Drawer } from '@material-ui/core';
+
+import FormGroup from '@material-ui/core/FormGroup';
+// or
+import { FormGroup } from '@material-ui/core';
 import { createPopper } from '@popperjs/core/lib/popper-lite.js';
 import preventOverflow from '@popperjs/core/lib/modifiers/preventOverflow.js';
 import flip from '@popperjs/core/lib/modifiers/flip.js';
