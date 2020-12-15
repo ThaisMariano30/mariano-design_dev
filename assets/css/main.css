@@ -1,0 +1,8 @@
+
+
+ .curriculo {
+    position: absolute;
+    top: 28vh;
+    z-index: 9999;
+    padding: 0 100px;
+}
